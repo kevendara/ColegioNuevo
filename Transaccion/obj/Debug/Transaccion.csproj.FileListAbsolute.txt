@@ -79,3 +79,30 @@ D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transacc
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.csproj.CopyComplete
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.dll
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Transaccion.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Transaccion.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Transaccion.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Entidades.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\EntityFramework.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\EntityFramework.SqlServer.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Servicio.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Repositorio.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Core.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Contexto.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Entidades.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Entidades.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Servicio.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Servicio.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\EntityFramework.xml
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\EntityFramework.SqlServer.xml
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Repositorio.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Repositorio.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Core.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Core.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Contexto.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\bin\Debug\Contexto.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.csproj.AssemblyReference.cache
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.csproj.CoreCompileInputs.cache
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.csproj.CopyComplete
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Transaccion\obj\Debug\Transaccion.pdb

@@ -32,3 +32,15 @@ D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.dll
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\Entidades.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\Entidades.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\Entidades.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\EntityFramework.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\EntityFramework.xml
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.csproj.CopyComplete
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Entidades\obj\Debug\Entidades.pdb

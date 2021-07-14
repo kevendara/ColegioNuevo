@@ -32,3 +32,15 @@ D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.csproj.Cor
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.csproj.CopyComplete
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.dll
 D:\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\Core.dll.config
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\Core.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\Core.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\EntityFramework.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\EntityFramework.SqlServer.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\EntityFramework.xml
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\bin\Debug\EntityFramework.SqlServer.xml
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.csproj.AssemblyReference.cache
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.csproj.CoreCompileInputs.cache
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.csproj.CopyComplete
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.dll
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Core\obj\Debug\Core.pdb
