@@ -540,65 +540,65 @@ namespace AplicacionWeb
             gridPanelClase.Reload();
         }
 
-        //VISTAS
-        /*Listar Vista Clase*/
-        private void GridVistaClases()
-        {
-            store_vistaClases.DataSource = servicio.GetVistaClases();
-            store_vistaClases.DataBind();
-        }
+        ////VISTAS
+        ///*Listar Vista Clase*/
+        //private void GridVistaClases()
+        //{
+        //    store_vistaClases.DataSource = servicio.GetVistaClases();
+        //    store_vistaClases.DataBind();
+        //}
 
-        /*Insertar Vista Clase*/
-        protected void InsertVistaClase()
-        {
-            int idMateria = int.Parse(idClaseVistaMateria.Text);
-            int idDocente = int.Parse(idClaseVistaDocente.Text);
-            int idAula = int.Parse(idClaseVistaAula.Text);
+        ///*Insertar Vista Clase*/
+        //protected void InsertVistaClase()
+        //{
+        //    int idMateria = int.Parse(idClaseVistaMateria.Text);
+        //    int idDocente = int.Parse(idClaseVistaDocente.Text);
+        //    int idAula = int.Parse(idClaseVistaAula.Text);
 
-            tbl_Clase clase = new tbl_Clase
-            {
-                mat_id_materia = idMateria,
-                doc_id_docente = idDocente,
-                au_id_aula = idAula
-            };
+        //    tbl_Clase clase = new tbl_Clase
+        //    {
+        //        mat_id_materia = idMateria,
+        //        doc_id_docente = idDocente,
+        //        au_id_aula = idAula
+        //    };
 
-            servicio.InsertClase(clase);
-        }
+        //    servicio.InsertClase(clase);
+        //}
 
-        /*Insertar Vista Clase*/
-        [DirectMethod]
-        protected void InsertarVistaClase(Object sender, EventArgs e)
-        {
-            InsertVistaClase();
-            gridPanelVistaClase.Reload();
-        }
+        ///*Insertar Vista Clase*/
+        //[DirectMethod]
+        //protected void InsertarVistaClase(Object sender, EventArgs e)
+        //{
+        //    InsertVistaClase();
+        //    gridPanelVistaClase.Reload();
+        //}
 
-        /*Actualizar una clase*/
-        protected void UpdateClaseVista()
-        {
-            int id = int.Parse(idClaseVista.Text);
-            int idMateria = int.Parse(idClaseVistaMateria.Text);
-            int idDocente = int.Parse(idClaseVistaDocente.Text);
-            int idAula = int.Parse(idClaseVistaAula.Text);
+        ///*Actualizar una clase*/
+        //protected void UpdateClaseVista()
+        //{
+        //    int id = int.Parse(idClaseVista.Text);
+        //    int idMateria = int.Parse(idClaseVistaMateria.Text);
+        //    int idDocente = int.Parse(idClaseVistaDocente.Text);
+        //    int idAula = int.Parse(idClaseVistaAula.Text);
 
-            tbl_Clase clase = new tbl_Clase
-            {
-                cla_id_clase = id,
-                mat_id_materia = idMateria,
-                doc_id_docente = idDocente,
-                au_id_aula = idAula
-            };
+        //    tbl_Clase clase = new tbl_Clase
+        //    {
+        //        cla_id_clase = id,
+        //        mat_id_materia = idMateria,
+        //        doc_id_docente = idDocente,
+        //        au_id_aula = idAula
+        //    };
 
-            servicio.UpdateClase(clase);
-        }
+        //    servicio.UpdateClase(clase);
+        //}
 
-        /*Actualizar una clase*/
-        [DirectMethod]
-        protected void ActualizarClaseVista(Object sender, EventArgs e)
-        {
-            UpdateClaseVista();
-            gridPanelVistaClase.Reload();
-        }
+        ///*Actualizar una clase*/
+        //[DirectMethod]
+        //protected void ActualizarClaseVista(Object sender, EventArgs e)
+        //{
+        //    UpdateClaseVista();
+        //    gridPanelVistaClase.Reload();
+        //}
 
         //Verificar que haya datos ingresados
         protected void CheckField(object sender, RemoteValidationEventArgs e)
@@ -683,10 +683,10 @@ namespace AplicacionWeb
             formPanelClases.Reset();
         }
 
-        [DirectMethod]
-        protected void CleanTextFieldVistaClase(object sender, EventArgs e)
-        {
-            formPanelVistaClases.Reset();
-        }
+        //[DirectMethod]
+        //protected void CleanTextFieldVistaClase(object sender, EventArgs e)
+        //{
+        //    formPanelVistaClases.Reset();
+        //}
     }
 }

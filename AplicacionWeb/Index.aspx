@@ -977,7 +977,7 @@
                             </Items>
                         </ext:GroupTab>
 
-                        <%-- Pestaña VISTA Clase --%>
+                        <%-- Pestaña VISTA Clase 
                         
                         <ext:GroupTab runat="server" MainItem="1">
                             <Items>
@@ -1154,7 +1154,7 @@
                                 </ext:Panel>
                             </Items>
                         </ext:GroupTab>
-                        
+                        --%>
                     </Groups>
                 </ext:GroupTabPanel>
             </Items>
