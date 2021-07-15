@@ -25,7 +25,7 @@ namespace AplicacionWeb
             GridAulas();
             GridMaterias();
             GridClases();
-            GridVistaClases();
+            //GridVistaClases();
         }
 
         //ESTUDIANTES
