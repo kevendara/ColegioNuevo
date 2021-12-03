@@ -82,3 +82,24 @@ H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Reposit
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Repositorio\obj\Debug\Repositorio.dll
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Repositorio\obj\Debug\Repositorio.pdb
+D:\Colegio_Login\Repositorio\bin\Debug\Repositorio.dll.config
+D:\Colegio_Login\Repositorio\bin\Debug\Repositorio.dll
+D:\Colegio_Login\Repositorio\bin\Debug\Repositorio.pdb
+D:\Colegio_Login\Repositorio\bin\Debug\Contexto.dll
+D:\Colegio_Login\Repositorio\bin\Debug\Core.dll
+D:\Colegio_Login\Repositorio\bin\Debug\Entidades.dll
+D:\Colegio_Login\Repositorio\bin\Debug\EntityFramework.dll
+D:\Colegio_Login\Repositorio\bin\Debug\EntityFramework.SqlServer.dll
+D:\Colegio_Login\Repositorio\bin\Debug\Contexto.pdb
+D:\Colegio_Login\Repositorio\bin\Debug\Contexto.dll.config
+D:\Colegio_Login\Repositorio\bin\Debug\Core.pdb
+D:\Colegio_Login\Repositorio\bin\Debug\Core.dll.config
+D:\Colegio_Login\Repositorio\bin\Debug\Entidades.pdb
+D:\Colegio_Login\Repositorio\bin\Debug\Entidades.dll.config
+D:\Colegio_Login\Repositorio\bin\Debug\EntityFramework.xml
+D:\Colegio_Login\Repositorio\bin\Debug\EntityFramework.SqlServer.xml
+D:\Colegio_Login\Repositorio\obj\Debug\Repositorio.csproj.AssemblyReference.cache
+D:\Colegio_Login\Repositorio\obj\Debug\Repositorio.csproj.CoreCompileInputs.cache
+D:\Colegio_Login\Repositorio\obj\Debug\Repositorio.csproj.CopyComplete
+D:\Colegio_Login\Repositorio\obj\Debug\Repositorio.dll
+D:\Colegio_Login\Repositorio\obj\Debug\Repositorio.pdb

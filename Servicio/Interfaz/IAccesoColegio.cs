@@ -40,5 +40,15 @@ namespace Servicio.Interfaz
 
         //bool CerificarCedula(string cedula);
 
+
+        List<tbl_user> GetUser();
+
+        void InsertUser(tbl_user nuevoAlumno);
+
+        void UpdateUser(tbl_user actualizarAlumno);
+
+        void DeleteUser(tbl_user actualizarAlumno);
+
+        string Login(string usuario, string password);
     }
 }

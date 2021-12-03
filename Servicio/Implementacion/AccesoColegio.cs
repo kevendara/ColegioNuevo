@@ -20,6 +20,7 @@ namespace Servicio.Implementacion
         IAsistenciaRepositorio asistenciaRepositorio;
         INotaRepositorio notaRepositorio;
         IVistaClaseRepositorio vistaClaseRepositorio;
+        Itbl_UserRepositorio userRepositorio;
 
         public AccesoColegio(
             IEstudianteRepositorio alumnoRepositorio,
@@ -30,7 +31,8 @@ namespace Servicio.Implementacion
             IClaseRepositorio claseRepositorio,
             IAsistenciaRepositorio asistenciaRepositorio,
             INotaRepositorio notaRepositorio,
-            IVistaClaseRepositorio vistaClaseRepositorio)
+            IVistaClaseRepositorio vistaClaseRepositorio,
+            Itbl_UserRepositorio userRepositorio)
         {
             this.alumnoRepositorio = alumnoRepositorio;
             this.docenteRepositorio = docenteRepositorio;
@@ -41,6 +43,7 @@ namespace Servicio.Implementacion
             this.asistenciaRepositorio = asistenciaRepositorio;
             this.notaRepositorio = notaRepositorio;
             this.vistaClaseRepositorio = vistaClaseRepositorio;
+            this.userRepositorio = userRepositorio;
         }
 
         //public AccesoColegio(IDocenteRepositorio docenteRepositorio)
@@ -61,35 +64,84 @@ namespace Servicio.Implementacion
             vistaClaseRepositorio.Inicializar();
         }
 
-        //Verificar Cédula
-        //public bool CerificarCedula(string cedula)
-        //{
-        //    int isNumeric;
-        //    var total = 0;
-        //    const int tamanioLonguitudCedula = 10;
-        //    int[] coeficientes = { 2, 1, 2, 1, 2, 1, 2, 1, 2 };
-        //    const int numeroProvincia = 24;
-        //    const int tercerDigito = 6;
 
-        //    if (int.TryParse(cedula, out isNumeric) && cedula.Length == tamanioLonguitudCedula)
-        //    {
-        //        var provincia = Convert.ToInt32(string.Concat(cedula[0], cedula[1], string.Empty));
-        //        var digitoTres = Convert.ToInt32(cedula[2] + string.Empty);
-        //        if ((provincia > 0 && provincia <= numeroProvincia) && digitoTres < tercerDigito)
-        //        {
-        //            var digitoVerificadorRecibido = Convert.ToInt32(cedula[9] + string.Empty);
-        //            for (var k = 0; k < coeficientes.Length; k++)
-        //            {
-        //                var valor = Convert.ToInt32(coeficientes[k] + string.Empty) *
-        //                    Convert.ToInt32(cedula[k] + string.Empty);
-        //                total = valor >= 10 ? total + (valor - 9) : total + valor;
-        //            }
-        //            var digitoVerificadorObtenido = total >= 10 ? (total % 10) != 0 ? 10 - (total % 10) : (total % 10) : total;
-        //            return digitoVerificadorObtenido == digitoVerificadorRecibido;
-        //        }
-        //        return false;
-        //    }
-        //}
+        //IMPLEMENTACION ESTUDIANTE
+        /*Listar todos los alumnos*/
+        public List<tbl_user> GetUser()
+        {
+            List<tbl_user> users = this.userRepositorio.All().ToList();
+
+            return (from a in users
+                    select new tbl_user
+                    {
+                        id = a.id,
+                        nombreCuenta = a.nombreCuenta,
+                        contraseña = a.contraseña,
+                        tipoUsuario = a.tipoUsuario,
+                        nombrePersona = a.nombrePersona
+                    }).ToList();
+        }
+
+        /*Crear un alumno*/
+        public void InsertUser(tbl_user nuevoAlumno)
+        {
+            this.userRepositorio.Create(nuevoAlumno);
+        }
+
+        /*Actualizar un alumno*/
+        public void UpdateUser(tbl_user actualizarUser)
+        {
+            tbl_user encontrarEstudiante = this.userRepositorio.Find(
+                t => t.id.Equals(actualizarUser.id));
+            encontrarEstudiante.contraseña = actualizarUser.contraseña;
+            encontrarEstudiante.nombreCuenta = actualizarUser.nombreCuenta;
+            encontrarEstudiante.nombrePersona = actualizarUser.nombrePersona;
+            encontrarEstudiante.tipoUsuario = actualizarUser.tipoUsuario;
+            this.userRepositorio.Update(encontrarEstudiante);
+        }
+
+
+        public void DeleteUser(tbl_user deleteUser)
+        {
+            tbl_user encontrarEstudiante = this.userRepositorio.Find(
+                t => t.id.Equals(deleteUser.id));
+            this.userRepositorio.Delete(encontrarEstudiante);
+        }
+        public string Login(string usuario, string password)
+        {
+
+            tbl_user encontrarAdmin = this.userRepositorio.Find(
+                    t => t.nombreCuenta == usuario && t.contraseña == password && t.tipoUsuario=="Administrador");
+
+            tbl_user encontrarDocente = this.userRepositorio.Find(
+                    t => t.nombreCuenta == usuario && t.contraseña == password && t.tipoUsuario == "Profesor");
+
+            tbl_user encontrarEstudiante = this.userRepositorio.Find(
+                    t => t.nombreCuenta == usuario && t.contraseña == password && t.tipoUsuario == "Estudiante");
+
+            if (encontrarAdmin != null)
+            {
+                return "administrador";
+            }
+            else
+            {
+                if (encontrarDocente != null)
+                {
+                    return "docente";
+                }
+                else
+                {
+                    if (encontrarEstudiante != null)
+                    {
+                        return "estudiante";
+                    }
+                    else
+                    {
+                        return null;
+                    }
+                }
+            }
+        }
 
 
 
@@ -361,14 +413,14 @@ namespace Servicio.Implementacion
             return (from vc in clases
                     select new vta_Clase
                     {
-                        cla_id_clase=vc.cla_id_clase,
-                        doc_id_docente=vc.doc_id_docente,
-                        doc_nombres=vc.doc_nombres,
-                        doc_apellidos=vc.doc_apellidos,
-                        mat_id_materia=vc.mat_id_materia,
-                        mat_nombre_materia=vc.mat_nombre_materia,
-                        au_id_aula=vc.au_id_aula,
-                        au_nombre_aula=vc.au_nombre_aula
+                        cla_id_clase = vc.cla_id_clase,
+                        doc_id_docente = vc.doc_id_docente,
+                        doc_nombres = vc.doc_nombres,
+                        doc_apellidos = vc.doc_apellidos,
+                        mat_id_materia = vc.mat_id_materia,
+                        mat_nombre_materia = vc.mat_nombre_materia,
+                        au_id_aula = vc.au_id_aula,
+                        au_nombre_aula = vc.au_nombre_aula
                     }).ToList();
         }
     }

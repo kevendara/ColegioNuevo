@@ -94,3 +94,27 @@ H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Servici
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Servicio\obj\Debug\Servicio.csproj.CopyComplete
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Servicio\obj\Debug\Servicio.dll
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Servicio\obj\Debug\Servicio.pdb
+D:\Colegio_Login\Servicio\bin\Debug\Servicio.dll.config
+D:\Colegio_Login\Servicio\bin\Debug\Servicio.dll
+D:\Colegio_Login\Servicio\bin\Debug\Servicio.pdb
+D:\Colegio_Login\Servicio\bin\Debug\Core.dll
+D:\Colegio_Login\Servicio\bin\Debug\Entidades.dll
+D:\Colegio_Login\Servicio\bin\Debug\EntityFramework.dll
+D:\Colegio_Login\Servicio\bin\Debug\EntityFramework.SqlServer.dll
+D:\Colegio_Login\Servicio\bin\Debug\Repositorio.dll
+D:\Colegio_Login\Servicio\bin\Debug\Contexto.dll
+D:\Colegio_Login\Servicio\bin\Debug\Core.pdb
+D:\Colegio_Login\Servicio\bin\Debug\Core.dll.config
+D:\Colegio_Login\Servicio\bin\Debug\Entidades.pdb
+D:\Colegio_Login\Servicio\bin\Debug\Entidades.dll.config
+D:\Colegio_Login\Servicio\bin\Debug\Repositorio.pdb
+D:\Colegio_Login\Servicio\bin\Debug\Repositorio.dll.config
+D:\Colegio_Login\Servicio\bin\Debug\EntityFramework.xml
+D:\Colegio_Login\Servicio\bin\Debug\EntityFramework.SqlServer.xml
+D:\Colegio_Login\Servicio\bin\Debug\Contexto.pdb
+D:\Colegio_Login\Servicio\bin\Debug\Contexto.dll.config
+D:\Colegio_Login\Servicio\obj\Debug\Servicio.csproj.AssemblyReference.cache
+D:\Colegio_Login\Servicio\obj\Debug\Servicio.csproj.CoreCompileInputs.cache
+D:\Colegio_Login\Servicio\obj\Debug\Servicio.csproj.CopyComplete
+D:\Colegio_Login\Servicio\obj\Debug\Servicio.dll
+D:\Colegio_Login\Servicio\obj\Debug\Servicio.pdb

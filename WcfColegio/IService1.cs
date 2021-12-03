@@ -93,6 +93,23 @@ namespace WcfColegio
         void UpdateAsistencia(tbl_Asistencia actualizarAsitencia);
 
 
+
+        [OperationContract]
+        List<tbl_user> GetUser();
+
+        [OperationContract]
+        void InsertUser(tbl_user nuevoAlumno);
+
+        [OperationContract]
+        void UpdateUser(tbl_user actualizarAlumno);
+
+        [OperationContract]
+        void DeleteUser(tbl_user eliminarUser);
+
+        [OperationContract]
+        string Login(string usuario, string password);
+
+
         [OperationContract]
         CompositeType GetDataUsingDataContract(CompositeType composite);
 

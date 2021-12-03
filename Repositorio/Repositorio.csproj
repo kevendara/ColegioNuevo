@@ -55,6 +55,7 @@
     <Compile Include="Implementacion\tbl_MateriaRepositorio.cs" />
     <Compile Include="Implementacion\tbl_NotaRepositorio.cs" />
     <Compile Include="Implementacion\tbl_QuimestreRepositorio.cs" />
+    <Compile Include="Implementacion\tbl_UserRepositorio.cs" />
     <Compile Include="Implementacion\vta_ClaseRepositorio.cs" />
     <Compile Include="Interfaz\IAsistenciaRepositorio.cs" />
     <Compile Include="Interfaz\IAulaRepositorio.cs" />
@@ -64,6 +65,7 @@
     <Compile Include="Interfaz\IMateriaRepositorio.cs" />
     <Compile Include="Interfaz\INotaRepositorio.cs" />
     <Compile Include="Interfaz\IQuimestreRepositorio.cs" />
+    <Compile Include="Interfaz\Itbl_UserRepositorio.cs" />
     <Compile Include="Interfaz\IVistaClaseRepositorio.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositorio.cs" />

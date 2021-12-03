@@ -146,3 +146,40 @@ H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\WcfCole
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\WcfColegio\obj\Debug\WcfColegio.csproj.CopyComplete
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\WcfColegio\obj\Debug\WcfColegio.dll
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\WcfColegio\obj\Debug\WcfColegio.pdb
+D:\Colegio_Login\WcfColegio\bin\WcfColegio.dll.config
+D:\Colegio_Login\WcfColegio\bin\WcfColegio.dll
+D:\Colegio_Login\WcfColegio\bin\WcfColegio.pdb
+D:\Colegio_Login\WcfColegio\bin\Entidades.dll
+D:\Colegio_Login\WcfColegio\bin\EntityFramework.dll
+D:\Colegio_Login\WcfColegio\bin\EntityFramework.SqlServer.dll
+D:\Colegio_Login\WcfColegio\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Colegio_Login\WcfColegio\bin\Microsoft.Practices.Unity.dll
+D:\Colegio_Login\WcfColegio\bin\Transaccion.dll
+D:\Colegio_Login\WcfColegio\bin\Unity.Abstractions.dll
+D:\Colegio_Login\WcfColegio\bin\Unity.Container.dll
+D:\Colegio_Login\WcfColegio\bin\Unity.Interception.dll
+D:\Colegio_Login\WcfColegio\bin\Unity.ServiceLocation.dll
+D:\Colegio_Login\WcfColegio\bin\Unity.Wcf.dll
+D:\Colegio_Login\WcfColegio\bin\Servicio.dll
+D:\Colegio_Login\WcfColegio\bin\Repositorio.dll
+D:\Colegio_Login\WcfColegio\bin\Core.dll
+D:\Colegio_Login\WcfColegio\bin\Contexto.dll
+D:\Colegio_Login\WcfColegio\bin\Entidades.pdb
+D:\Colegio_Login\WcfColegio\bin\Entidades.dll.config
+D:\Colegio_Login\WcfColegio\bin\Transaccion.pdb
+D:\Colegio_Login\WcfColegio\bin\Transaccion.dll.config
+D:\Colegio_Login\WcfColegio\bin\EntityFramework.xml
+D:\Colegio_Login\WcfColegio\bin\EntityFramework.SqlServer.xml
+D:\Colegio_Login\WcfColegio\bin\Servicio.pdb
+D:\Colegio_Login\WcfColegio\bin\Servicio.dll.config
+D:\Colegio_Login\WcfColegio\bin\Repositorio.pdb
+D:\Colegio_Login\WcfColegio\bin\Repositorio.dll.config
+D:\Colegio_Login\WcfColegio\bin\Core.pdb
+D:\Colegio_Login\WcfColegio\bin\Core.dll.config
+D:\Colegio_Login\WcfColegio\bin\Contexto.pdb
+D:\Colegio_Login\WcfColegio\bin\Contexto.dll.config
+D:\Colegio_Login\WcfColegio\obj\Debug\WcfColegio.csproj.AssemblyReference.cache
+D:\Colegio_Login\WcfColegio\obj\Debug\WcfColegio.csproj.CoreCompileInputs.cache
+D:\Colegio_Login\WcfColegio\obj\Debug\WcfColegio.csproj.CopyComplete
+D:\Colegio_Login\WcfColegio\obj\Debug\WcfColegio.dll
+D:\Colegio_Login\WcfColegio\obj\Debug\WcfColegio.pdb

@@ -38,6 +38,35 @@ namespace WcfColegio
             return composite;
         }
 
+
+
+        public List<tbl_user> GetUser()
+        {
+            List<tbl_user> user = transaccionColegio.GetUser();
+            return user;
+        }
+
+        public void InsertUser(tbl_user nuevoAlumno)
+        {
+            transaccionColegio.InsertUser(nuevoAlumno);
+        }
+
+        public void UpdateUser(tbl_user actualizarAlumno)
+        {
+            transaccionColegio.UpdateUser(actualizarAlumno);
+        }
+
+        public void DeleteUser(tbl_user eliminarAlumno)
+        {
+            transaccionColegio.DeleteUser(eliminarAlumno);
+        }
+
+        public string Login(string usuario, string password)
+        {
+            return transaccionColegio.Login(usuario, password);
+        }
+
+
         //ESTUDIANTES
         /*Listar todos los alumons*/
         public List<tbl_Estudiante> GetAlumnos()

@@ -36,5 +36,16 @@ namespace Transaccion.Interfaz
         void UpdateClase(tbl_Clase actualizarClase);
         void UpdateNota(tbl_Nota actualizarNota);
         void UpdateAsistencia(tbl_Asistencia actualizarAsitencia);
+
+
+        List<tbl_user> GetUser();
+
+        void InsertUser(tbl_user nuevoAlumno);
+
+        void UpdateUser(tbl_user actualizarAlumno);
+
+        void DeleteUser(tbl_user eliminarUser);
+
+        string Login(string usuario, string password);
     }
 }

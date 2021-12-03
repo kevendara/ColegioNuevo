@@ -25,11 +25,30 @@ namespace Contexto
         public virtual DbSet<tbl_Nota> tbl_Nota { get; set; }
         public virtual DbSet<tbl_Quimestre> tbl_Quimestre { get; set; }
 
+        public virtual DbSet<tbl_user> tbl_user { get; set; }
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
-            modelBuilder.Entity<tbl_Aula>()
-                .Property(e => e.au_nombre_aula)
+
+            modelBuilder.Entity<tbl_user>()
+                .Property(e => e.nombreCuenta)
                 .IsUnicode(false);
+
+            modelBuilder.Entity<tbl_user>()
+                .Property(e => e.contraseña)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<tbl_user>()
+                .Property(e => e.tipoUsuario)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<tbl_user>()
+                .Property(e => e.nombrePersona)
+                .IsUnicode(false);
+
+            modelBuilder.Entity<tbl_Aula>()
+                    .Property(e => e.au_nombre_aula)
+                    .IsUnicode(false);
 
             modelBuilder.Entity<tbl_Aula>()
                 .HasMany(e => e.tbl_Clase)
@@ -112,4 +131,5 @@ namespace Contexto
                 .IsUnicode(false);
         }
     }
+
 }

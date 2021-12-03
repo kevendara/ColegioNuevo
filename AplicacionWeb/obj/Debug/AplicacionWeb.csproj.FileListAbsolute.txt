@@ -17,6 +17,12 @@ H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\Aplicac
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\bin\Newtonsoft.Json.dll
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.AssemblyReference.cache
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.CoreCompileInputs.cache
-H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.CopyComplete
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\obj\Debug\AplicacionWeb.dll
 H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\obj\Debug\AplicacionWeb.pdb
+H:\UTN\10 Decimo Semestre\Practivas -Pre-profesionales\Apps\ColegioNuevo\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.CopyComplete
+D:\Colegio_Login\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.AssemblyReference.cache
+D:\Colegio_Login\AplicacionWeb\obj\Debug\AplicacionWeb.csproj.CoreCompileInputs.cache
+D:\Colegio_Login\AplicacionWeb\bin\AplicacionWeb.dll.config
+D:\Colegio_Login\AplicacionWeb\bin\AplicacionWeb.pdb
+D:\Colegio_Login\AplicacionWeb\obj\Debug\AplicacionWeb.dll
+D:\Colegio_Login\AplicacionWeb\obj\Debug\AplicacionWeb.pdb

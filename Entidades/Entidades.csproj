@@ -58,6 +58,7 @@
     <Compile Include="tbl_Materia.cs" />
     <Compile Include="tbl_Nota.cs" />
     <Compile Include="tbl_Quimestre.cs" />
+    <Compile Include="tbl_user.cs" />
     <Compile Include="vta_Clase.cs" />
   </ItemGroup>
   <ItemGroup>

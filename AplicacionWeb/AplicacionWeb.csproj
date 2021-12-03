@@ -39,6 +39,10 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="AplicacionWeb, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>bin\AplicacionWeb.dll</HintPath>
+    </Reference>
     <Reference Include="Ext.Net">
       <HintPath>..\..\Colegio\Colegio\bin\Ext.Net.dll</HintPath>
     </Reference>
@@ -48,7 +52,7 @@
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Newtonsoft.Json, Version=6.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\Colegio\Colegio\bin\Newtonsoft.Json.dll</HintPath>
+      <HintPath>bin\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System.Runtime.Serialization" />
     <Reference Include="System.ServiceModel" />
@@ -70,36 +74,57 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.CompositeType.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.CompositeType1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Asistencia.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Asistencia1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Aula.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Aula1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Clase.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Clase1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Docente.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Docente1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Estudiante.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Estudiante1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Materia.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Materia1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Nota.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Nota1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Quimestre.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_Quimestre1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
-    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.vta_Clase.datasource">
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.tbl_user1.datasource">
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Content>
+    <Content Include="Connected Services\Servicios.Colegio\AplicacionWeb.Servicios.Colegio.vta_Clase1.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Content>
+    <None Include="Connected Services\Servicios.Colegio\Service1.disco" />
+    <None Include="Connected Services\Servicios.Colegio\configuration91.svcinfo" />
+    <None Include="Connected Services\Servicios.Colegio\configuration.svcinfo" />
+    <None Include="Connected Services\Servicios.Colegio\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.CompositeType.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Asistencia.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Aula.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Clase.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Docente.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Estudiante.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Materia.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Nota.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_Quimestre.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.tbl_user.datasource" />
+    <Content Include="Properties\DataSources\AplicacionWeb.Servicios.Colegio.vta_Clase.datasource" />
     <None Include="Connected Services\Servicios.Colegio\Service1.wsdl" />
     <None Include="Connected Services\Servicios.Colegio\Service1.xsd">
       <SubType>Designer</SubType>
@@ -121,32 +146,33 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Connected Services\Servicios.Colegio\Service1.disco" />
-    <None Include="Connected Services\Servicios.Colegio\configuration91.svcinfo" />
-    <None Include="Connected Services\Servicios.Colegio\configuration.svcinfo" />
-    <None Include="Connected Services\Servicios.Colegio\Reference.svcmap">
-      <Generator>WCF Proxy Generator</Generator>
-      <LastGenOutput>Reference.cs</LastGenOutput>
-    </None>
-    <Content Include="Index.aspx" />
+    <Content Include="Administrador.aspx" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Content Include="Login.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Administrador.aspx.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Administrador.aspx.designer.cs">
+      <DependentUpon>Administrador.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Connected Services\Servicios.Colegio\Reference.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>Reference.svcmap</DependentUpon>
     </Compile>
-    <Compile Include="Index.aspx.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Index.aspx.designer.cs">
-      <DependentUpon>Index.aspx</DependentUpon>
+    <Compile Include="Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Settings.Designer.cs">

@@ -16,6 +16,33 @@ namespace Transaccion.Implementacion
             this.accesoColegio = accesoColegio;
         }
 
+
+        public List<tbl_user> GetUser()
+        {
+            List<tbl_user> user = accesoColegio.GetUser();
+            return user;
+        }
+
+        public void InsertUser(tbl_user nuevoAlumno)
+        {
+            accesoColegio.InsertUser(nuevoAlumno);
+        }
+
+        public void UpdateUser(tbl_user actualizarAlumno)
+        {
+            accesoColegio.UpdateUser(actualizarAlumno);
+        }
+
+        public void DeleteUser(tbl_user eliminarAlumno)
+        {
+            accesoColegio.DeleteUser(eliminarAlumno);
+        }
+
+        public string Login(string usuario, string password)
+        {
+            return accesoColegio.Login(usuario, password);
+        }
+
         //TANSACCION ESTUDIANTE
         /*Listar todos los alumnos*/
         public List<tbl_Estudiante> GetAlumnos()
